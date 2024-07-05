@@ -1,6 +1,6 @@
 export const navItems = [
-  "00 Home",
-  "01 Destination",
-  "02 Crew",
-  "03 Technology",
+  { number: "00", text: " Home" },
+  { number: "01", text: " Destination" },
+  { number: "02", text: " Crew" },
+  { number: "03", text: " Technology" },
 ];

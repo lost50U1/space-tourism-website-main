@@ -6,5 +6,5 @@ import close from "../assets/shared/icon-close.svg";
 
 export const heroImg = hero;
 export const logoImg = logo;
-export const hamburgerImg = logo;
-export const closeImg = logo;
+export const hamburgerImg = hamburger;
+export const closeImg = close;

@@ -7,6 +7,9 @@ export default {
         lightblue: "#D0D6F9",
         verydarknavy: "#0B0D17",
       },
+      fontFamily: {
+        barlow: ["Barlow Condensed", "sans-serif"],
+      },
     },
   },
   plugins: [],

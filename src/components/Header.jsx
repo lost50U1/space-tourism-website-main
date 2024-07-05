@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <section className="lg:pt-10">
-        <header className="container mx-auto p-6 flex">
+        <header className="mx-auto p-6 sm:p-0 sm:h-24 flex justify-between">
           <Logo />
           <Navbar />
         </header>

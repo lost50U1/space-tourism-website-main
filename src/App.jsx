@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       <main
-        className="bg-cover min-h-screen"
+        className="bg-cover text-base min-h-screen"
         style={{
           backgroundImage: `url(${heroImg})`,
         }}
