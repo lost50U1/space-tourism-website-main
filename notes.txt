@@ -8,3 +8,5 @@ export default function MyComponent() {
 
 
 for different screen sizes
+
+create a horizontal line that only appears on desktop screen
