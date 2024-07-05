@@ -4,10 +4,10 @@ import { hamburgerImg } from "../utils";
 const Navbar = () => {
   return (
     <>
-      <nav className="bg-white bg-opacity-5 hidden sm:flex items-center w-1/2 sm:w-5/6 justify-end sm:pr-10 lg:pr-16 lg:w-1/2">
+      <nav className="bg-white/5 backdrop-blur-[80px] hidden sm:flex items-center w-1/2 sm:w-5/6 justify-end sm:pr-10 lg:pr-16 lg:w-1/2">
         <ul className="flex gap-12">
           {navItems.map((item) => (
-            <li key={item} className="uppercase font-barlow text-white">
+            <li key={item.id} className="uppercase font-barlow text-white">
               <a href="#">
                 <span className="font-bold">{item.number}</span>
                 {item.text}

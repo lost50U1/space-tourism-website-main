@@ -1,0 +1,10 @@
+export default function MyComponent() {
+    return (
+        <div className="bg-[url('[^1^][1]')] md:bg-[url('[^2^][2]')] h-screen bg-cover bg-center">
+            {/* Your content */}
+        </div>
+    );
+}
+
+
+for different screen sizes

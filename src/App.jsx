@@ -1,15 +1,9 @@
 import Header from "./components/Header";
-import { heroImg } from "./utils";
 
 const App = () => {
   return (
     <>
-      <main
-        className="bg-cover text-base min-h-screen"
-        style={{
-          backgroundImage: `url(${heroImg})`,
-        }}
-      >
+      <main className="bg-cover text-base min-h-screen bg-[url('./assets/home/background-home-mobile.jpg')] sm:bg-[url('./assets/home/background-home-tablet.jpg')] lg:bg-[url('./assets/home/background-home-desktop.jpg')]">
         <Header />
         00 Home 01 Destination 02 Crew 03 Technology So, you want to travel to
         Space Let’s face it; if you want to go to space, you might as well
