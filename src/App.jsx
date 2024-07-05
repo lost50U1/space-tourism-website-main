@@ -1,5 +1,24 @@
+import Header from "./components/Header";
+import { heroImg } from "./utils";
+
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <main
+        className="bg-cover min-h-screen"
+        style={{
+          backgroundImage: `url(${heroImg})`,
+        }}
+      >
+        <Header />
+        00 Home 01 Destination 02 Crew 03 Technology So, you want to travel to
+        Space Let’s face it; if you want to go to space, you might as well
+        genuinely go to outer space and not hover kind of on the edge of it.
+        Well sit back, and relax because we’ll give you a truly out of this
+        world experience! Explore
+      </main>
+    </>
+  );
 };
 
 export default App;
